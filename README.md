@@ -12,3 +12,17 @@ This repository implements advanced ECG heartbeat classification using the MIT-B
 ## Installation
 1. Clone the repository.
 2. Install dependencies:
+3. Download MIT-BIH datasets as described.
+
+## Usage
+- Prepare the dataset at the specified `BASE_PATH` in the config.
+- Run `train_simple_model()` to train and evaluate the model.
+- Use provided scripts to preprocess data and visualize results.
+
+## Files
+- `progam.py` - Main code including data loading, preprocessing, model building, and evaluation.
+- `requirements.txt` - Python package dependencies.
+- `README.md` - Project description and instructions.
+
+## License
+MIT License
